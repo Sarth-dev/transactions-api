@@ -1,0 +1,71 @@
+/* table tr  td{
+  border: .3px solid red;
+}
+
+tr td{
+  padding: 20px;
+}
+
+table{
+  width: 100%;
+  padding: 10px;
+} */
+
+
+/* Style for the table */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse; /* Ensure borders are collapsed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  border-radius: 40px; /* Rounded corners */
+  overflow: hidden; /* Ensures rounded corners are visible */
+}
+
+/* Table header styling */
+thead {
+  background-color: #def2f1; /* Soft light teal */
+  color: #17252a; /* Dark grayish blue */
+}
+
+/* Styling for table header and body cells */
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: .3px solid #def2f1;
+  border-bottom: 1px solid #3aafa9; /* Light teal border */
+}
+
+
+/* Alternate row color for better readability */
+tbody tr:nth-child(even) {
+  background-color: #f0f8ff; /* Light background for even rows */
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+  background-color: #eef6f7; /* Slightly darker on hover */
+}
+
+/* Image styling */
+td img {
+  max-width: 100px; /* Set image size */
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Optional: Style for the container of the table */
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Rounded corners for the container */
+  overflow: hidden; /* To keep rounded corners */
+}
+
+.shadow1{
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+
+}
+
+.stat{
+  width: 250px;
+ 
+}
